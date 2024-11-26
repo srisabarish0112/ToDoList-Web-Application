@@ -1,52 +1,32 @@
-# Todo-List App
+** TodoList App **
 
-A Django-based web application that allows users to create, manage, and track their tasks. This app features a minimal user interface and the following functionality:
+This is a simple TodoList web application built with Django, REST API, and SQLite. The app allows users to create, update, and delete tasks, providing an easy way to manage daily to-do lists.
 
-- Create tasks
-- Mark tasks as done
-- Delete tasks
-- Search tasks
+Features: 
 
-Additionally, the app includes user authentication and authorization, ensuring that each user only has access to their own tasks.
+User Authentication: Login and Register to manage your tasks securely.
+Task Management: Add, Edit, and Delete tasks.
+REST API: A RESTful API for task management.
+SQLite Database: All user data and tasks are stored in a lightweight SQLite database.
 
-### ScreenShots
+Technologies Used:
 
-<img src = "https://user-images.githubusercontent.com/79650580/216557311-04e970f0-b056-438e-ba89-8abbd6f5b64e.png" width=900 height=550>
+Django
+Django REST Framework (DRF)
+SQLite Database
+HTML/CSS/JavaScript for the frontend
 
+Usage :
 
-## Getting Started
+Login Interface:
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+You can log in using your registered credentials. If you don’t have an account, simply register through the login page.
 
-### Prerequisites
+<img width="1437" alt="Screenshot 2024-11-26 at 4 47 46 PM (1)" src="https://github.com/user-attachments/assets/8ff36d5f-a80b-42ef-a53e-9c981447d1e0">
 
-- Python 3.10 or higher
-- Django 4.1 or higher
+Task Adding Interface:
 
-### Installation
+After logging in, you can add a new task by entering the task name and description. The task will be saved to your database and displayed in the task list.
 
-1. Clone the repository:
+<img width="1440" alt="Screenshot 2024-11-26 at 4 48 01 PM (1)" src="https://github.com/user-attachments/assets/670123e5-2862-48c8-bdf6-34736006fc11">
 
-    ` git clone https://github.com/Raj-m01/Todo-list.git `
-
-2. Change into the project directory:
-
-    ` cd Todo-list `
-
-3. Install the required packages:
-
-    ` pip install -r requirements.txt `
-
-4. Apply the migrations:
-
-    ` python manage.py migrate `
-
-5. Start the development server:
-
-    ` python manage.py runserver `
-
-The app should now be accessible at `http://localhost:8000`.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to the project, please create a pull request.
